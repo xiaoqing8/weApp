@@ -1,0 +1,16 @@
+<view>  1、请选择您的性别 </view>
+<radio-group class="radio-group" bindchange="radioChangeSex">
+    <label class="radio" wx:for="{{sexuality}}" wx:key="item">
+        <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+</radio-group>
+
+<view class='age'>  2、请选择您的年龄 </view>
+<radio-group class="radio-group" bindchange="radioChangeAge">
+    <label style="display:flex;"  wx:for="{{ages}}" wx:key="item">
+        <radio class="radio-age" value="{{item.name}}" checked="{{item.checked}}">{{item.value}}</radio>
+    </label>
+</radio-group>
+
+<button class="b_symptom" bindtap='ok_symptom'> 确定 </button>
+

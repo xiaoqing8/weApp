@@ -1,0 +1,10 @@
+@import "../PerInfo/PerInfo.wxss";
+@import "../symptom/symptom.wxss";
+
+.pastDis, .aller {
+  margin-left: 20rpx 
+}
+
+.aller {
+  margin-top: 20rpx
+}

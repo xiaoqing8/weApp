@@ -1,0 +1,36 @@
+/**index.wxss**/
+.title_ask{
+  margin-top: -180rpx;
+  margin-bottom: 115rpx;
+  border-radius: 25rpx;
+}
+
+.ask{
+  font-weight: 900;
+  font-size: larger;
+}
+
+.title_statement{
+  border: 8rpx inset blanchedalmond;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  margin-bottom: 100rpx;
+  border-radius: 25rpx;
+  background: yellow;
+}
+
+.statement{
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+.dabai{
+  width: 300rpx;
+  margin-bottom: 100rpx;
+}
+
+.b_startAsk{
+  background-color: gainsboro; 
+  width: 250rpx;
+}

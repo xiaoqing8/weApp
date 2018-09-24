@@ -1,0 +1,5 @@
+.b_symptom{
+  background-color: gainsboro; 
+  width: 250rpx;
+  margin-top: 80rpx;
+}

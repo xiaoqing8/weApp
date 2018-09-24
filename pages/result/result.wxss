@@ -1,0 +1,111 @@
+.possible_title {
+  font-weight: 600;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+}
+
+.list_dis{
+  margin-left: 20rpx;
+}
+
+.no_dis{
+  margin-left: 20rpx;
+}
+
+.gen_pdf {
+  margin-left: 100rpx; 
+  margin-top: 30rpx;
+  width: 500rpx
+}
+
+.show_EMR {
+  margin-left: 100rpx; 
+  margin-top: 100rpx;
+  width: 500rpx
+}
+
+.pathTreatment {
+  color: darkblue;
+  font-weight: 500;
+}
+
+.itemHidden {
+  margin: 30rpx
+}
+
+.itemDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.item {
+  font-size: 40rpx;
+}
+
+.chance {
+  color: orangered
+}
+
+.seeDetail {
+  font-size: 30rpx;
+  color: lightgrey;
+}
+
+.line {
+  height: 1px;
+  background: gainsboro;
+  margin: 0 20rpx 10rpx 0
+}
+
+.true {
+  color: red;
+  font-size: 40rpx
+}
+
+.zz{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* @keyframes slidup {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.slidup {
+  display: block;
+  animation: slidup 0.2s ease-in both;
+}*/
+
+/*筛选项隐藏 显示动画 start*/
+/* @keyframes slidown {
+  from {
+    transform: translateY(0%);
+  }
+
+  to {
+    transform: translateY(100%);
+  }
+}
+
+.slidown {
+  display: block;
+  animation: slidown 0.1s ease-in both;
+}
+
+.pick-container {
+  width: 100%;
+  height: 300rpx;
+  background-color: lightgoldenrodyellow;
+  position: absolute;
+  z-index: 50;
+  top: -300rpx
+} */ 
+

@@ -1,0 +1,41 @@
+<view class="page">
+  <view class='page__hd'>
+    <view wx:if="{{questionDetail}}" class="page__title" >{{tihao}}、{{questionDetail}}</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-cells weui-cells_after-title">
+            <view wx:if="{{answerA}}" url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='answerClickA'>
+                <view class="weui-cell__bd">{{optionA}}、{{answerA}}</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </view>
+            <view wx:if="{{answerB}}" url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='answerClickB'>
+                <view class="weui-cell__bd">{{optionB}}、{{answerB}}</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </view>
+            <view wx:if="{{answerC}}" url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='answerClickC'>
+                <view class="weui-cell__bd">{{optionC}}、{{answerC}}</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </view>
+            <view wx:if="{{answerD}}" url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='answerClickD'>
+                <view class="weui-cell__bd">{{optionD}}、{{answerD}}</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </view>
+            <view wx:if="{{answerE}}" url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='answerClickE'>
+                <view class="weui-cell__bd">{{optionE}}、{{answerE}}</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </view>
+            <view wx:if="{{answerF}}" url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='answerClickF'>
+                <view class="weui-cell__bd">{{optionF}}、{{answerF}}</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </view>
+            <view wx:if="{{answerG}}" url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='answerClickG'>
+                <view class="weui-cell__bd">{{optionG}}、{{answerG}}</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </view>
+            <view wx:if="{{answerH}}" url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='answerClickH'>
+                <view class="weui-cell__bd">{{optionH}}、{{answerH}}</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </view>
+        </view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='title_ask'> 
+    <text class="ask">{{motto}}</text>
+  </view>
+<!--
+  <view class='title_statement'> 
+    <text class="statement">声明：诊断结果仅可作为参考，确诊需要自行到医院就诊。</text>
+  </view>
+-->
+  <view class="start_ask">
+    <block>
+      <image class="dabai" src="../../images/dabai.jpg"  mode="widthFix"></image>
+    </block>
+    <button class="b_startAsk" bindtap='beginAsk'> {{btn_name}} </button>
+  </view> 
+</view>

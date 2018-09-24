@@ -1,0 +1,9 @@
+<view class="page">
+  <view class='page__hd'>
+    <view class="page__title">3、请问您有什么症状 </view>
+  </view>
+  <view class="page__bd">
+  <textarea bindinput="reasonInput" placeholder="请输入您的症状表现， 如咳嗽； 如果有多个症状，请用顿号“、”隔开" placeholderStyle="color:#999;"></textarea>
+  <button class="b_symptom" bindtap='ok_symptom'> 确定 </button>
+  </view>
+</view>

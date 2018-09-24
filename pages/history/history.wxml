@@ -1,0 +1,22 @@
+<view class='pastDis'>  {{tihao + 1}}、请问您有无以下既往病史： </view>
+<checkbox-group class="check-group" bindchange="checkboxChangePastDis">
+  <label style="display:flex;"  wx:for="{{pastDis}}" wx:key="item">
+    <checkbox class="checkbox" value="{{item.name}}" checked="{{item.checked}}">{{item.value}}</checkbox>   
+  </label>
+</checkbox-group>
+<view> 
+  <textarea bindinput="addpastdis" placeholder="如有其他既往病史请输入。如：肩周炎史" class='addPD' ></textarea>
+  <button class="addP" bindtap='okAddPast'> 确定 </button>
+</view>
+
+<view class='aller'>  {{tihao + 2}}、请问您有无以下过敏史： </view>
+<checkbox-group class="check-group" bindchange="checkboxChangeAller">
+  <label style="display:flex;"  wx:for="{{Allergic}}" wx:key="item">
+    <checkbox class="checkbox" value="{{item.name}}" checked="{{item.checked}}">{{item.value}}</checkbox>   
+  </label>
+</checkbox-group>
+<view> 
+<!-- 需要双击才能聚焦到这个框 -->
+ <textarea bindinput="addAller" placeholder="如有其他过敏史请输入。如：动物毛发史" class='addA'></textarea>
+ <button class='addAller' bindtap='okAddAller'> 确定 </button>
+</view>

@@ -1,0 +1,5 @@
+<view class="show"> 
+  <text style="white-space:pre-wrap">{{show}}</text>
+</view>
+
+<button class="b_symptom" bindtap='ok_symptom'> 返回 </button>

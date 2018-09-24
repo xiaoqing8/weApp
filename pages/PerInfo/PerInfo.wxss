@@ -1,0 +1,35 @@
+@import "../symptom/symptom.wxss";
+
+.radio-group, .check-group {
+  margin-left: 150rpx;
+  margin-top: 20rpx;
+}
+
+.radio {
+  margin-right: 100rpx;
+}
+
+.ages, .pastDis {
+  margin-top: 20rpx;
+}
+
+.radio-age, .checkbox {
+  margin-top: 20rpx;
+}
+
+.addPD, .addA {
+  border:  8rpx inset white;
+  border-radius: 25rpx;
+  background: gainsboro;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  height: 100rpx
+}
+
+.addP, .addAller {
+  width: 250rpx;
+}
+
+.addAller {
+  margin-bottom: 100rpx;
+}

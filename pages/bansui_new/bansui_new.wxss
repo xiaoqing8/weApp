@@ -1,0 +1,10 @@
+@import "../PerInfo/PerInfo.wxss";
+@import "../symptom/symptom.wxss";
+.addSymp {
+  border:  8rpx inset white;
+  border-radius: 25rpx;
+  background: gainsboro;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  height: 100rpx
+}

@@ -1,0 +1,8 @@
+<view>  {{tihao}}、请问您有如下哪种伴随症状 </view>
+<checkbox-group class="check-group" bindchange="checkboxChangeBS">
+  <label style="display:flex;"  wx:for="{{wait_bansui}}" wx:key="item">
+    <checkbox class="checkbox" value="{{item.name}}" checked="{{item.checked}}">{{item.value}}</checkbox>   
+  </label>
+</checkbox-group>
+<textarea bindinput="addSymp" placeholder="如有其他症状请输入。" class='addSymp' value='{{addzz}}'></textarea>
+<button class="b_symptom" bindtap='ok_symptom'> 确定 </button>

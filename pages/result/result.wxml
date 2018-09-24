@@ -1,0 +1,33 @@
+<view class="possible_title">
+  根据您的描述，疑似以下疾病，如需确诊请到医院就诊：
+</view>
+
+<view class="list_dis" wx:for="{{possible_dis}}" wx:key="item">
+  <view id='{{item.name}}' bindtap="onPickHeaderClick">
+    <view class='itemDetail'>
+        <view class='itemDetail'>
+          <text decode="{{true}}" class='item'>{{item.name}}&nbsp;</text>
+          <view class='chance'>{{item.chance}}</view>
+        </view>
+        <view class="seeDetail">查看详情</view>
+    </view>
+    <view class="line"></view>
+
+    <view class="itemHidden">
+      <view class="pathTreatment" hidden='{{dict_dis["hiddenName"+item.name]}}'>- 诊疗路径：</view>
+      <view hidden='{{dict_dis["hiddenName"+item.name]}}' class="zz">典型症状：
+        <view wx:for='{{disDetail}}' wx:for-index='key' wx:key="item">
+            <text decode="{{true}}" wx:if="{{item=='true'}}" class="true">{{key}}&nbsp;</text>
+            <text decode="{{true}}" wx:else>{{key}}&nbsp;</text>
+        </view>
+      </view>
+    <view class="pathTreatment" hidden='{{dict_dis["hiddenName"+item.name]}}'>- 进一步确诊需要：</view>
+    <view hidden='{{dict_dis["hiddenName"+item.name]}}'>{{quezhen}}</view>
+    </view>
+
+  </view> 
+</view> 
+
+<view>
+  <button class="show_EMR" bindtap='show_EMR'>显示个人病历</button>
+</view>
